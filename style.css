@@ -13,18 +13,22 @@
 }
 
 .inacap_container_img {
-    width: 60px;
-    height: 100px;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100vw; 
+    height: auto; 
 
+    
 }
 
 .inacap_container_img img {
-    width: 100%;
-    height: 100%;
+    width: 300px;
+    height: 100px;
     object-fit: cover;
 }
 .inacap-parrafo{
-    color: gray;
+    color: black;
 }
 .inacap-container-link{
     display: flex;
