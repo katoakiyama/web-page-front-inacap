@@ -1,0 +1,47 @@
+.inacap_padre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.inacap-titulo {
+    font-size: 40px;
+    color: red;
+
+}
+
+.inacap_container_img {
+    width: 60px;
+    height: 100px;
+
+}
+
+.inacap_container_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.inacap-parrafo{
+    color: gray;
+}
+.inacap-container-link{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+
+}
+.inacap-item{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+
+
