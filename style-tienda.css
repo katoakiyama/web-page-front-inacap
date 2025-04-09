@@ -1,35 +1,81 @@
-    
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5dc;
-            margin: 0;
-            padding: 20px;
-        }
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5dc;
+        margin: 0;
+        padding: 20px;
+    }
 
-        header {
-            background-color: #8b4513;
-            color: white;
-            text-align: center;
-            padding: 10px;
-        }
+    header {
+        background-color: #8b4513;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
 
-        .productos {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-        }
+    .productos {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
 
-        .producto {
-            background-color: white;
-            padding: 15px;
-            border-radius: 10px;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-            text-align: center;
-        }
+    .producto {
+        background-color: white;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
 
-        .producto img {
-            width: 150px;
-            height: auto;
-        }
-    
+    .producto img {
+        width: 150px;
+        height: auto;
+    }
+
+    .contactos {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        max-width: 500px;
+        margin: 20px auto;
+    }
+
+    .contactos h2 {
+        color: #8b4513;
+    }
+
+    .contactos p {
+        margin: 10px 0;
+    }
+
+    form {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        max-width: 500px;
+        margin: 20px auto;
+    }
+
+    input,
+    textarea {
+        width: calc(100% - 20px);
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    button {
+        background-color: #8b4513;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #6b3510;
+    }
